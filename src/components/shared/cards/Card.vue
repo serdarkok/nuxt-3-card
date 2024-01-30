@@ -10,7 +10,7 @@
 </template>
 
 <script setup lang="ts">
-import CardItem from "~/components/Shared/Cards/CardItem.vue";
+import CardItem from "~/components/shared/cards/CardItem.vue";
 import { products } from "~/constants/data";
 
 </script>
