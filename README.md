@@ -1,75 +1,14 @@
-# Nuxt 3 Minimal Starter
+[![Nuxt.js](https://img.shields.io/badge/Nuxt-3.9.3-purple.svg)](https://shields.io/) [![Pnpm](https://img.shields.io/badge/Pnpm-8.14.0-blue.svg)](https://shields.io/) [![Node](https://img.shields.io/badge/Node-18.17.0-green.svg)](https://shields.io/) [![Version](https://img.shields.io/badge/Version-dev-red.svg)](https://shields.io/) [![Typescript](https://img.shields.io/badge/Compiler-Typescript-0000ff.svg)](https://shields.io/)
+# Nuxt 3 Cards
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Getting Started
 
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+First, run the development server:
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+nvm use // for select version of node.js
+pnpm install // for install dependencies 
+pnpm dev
 ```
 
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
