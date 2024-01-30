@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@500,600,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h2 {
+    @apply font-semibold;
+  }
+}
+
+@layer components {
+  .h2-header {
+    @apply text-gray-1;
+    font-family: 'Poppins', sans-serif, system;
+    line-height: 54px;
+  }
+
+  .card-wrapper {
+    @apply bg-white rounded-2xl flex overflow-hidden text-gray-1;
+  }
+
+  .card-wrapper h3 {
+    @apply text-gray-1;
+    font-family: 'Poppins', sans-serif, system;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .card-list {
+    list-style: none;
+  }
+
+  .card-list li {
+    @apply text-gray-1;
+    padding-left: 14px;
+    position: relative;
+    font-family: 'Nunito Sans', sans-serif, system;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 26px;
+  }
+
+  .card-list li::before {
+    @apply text-acccent;
+    font-family: 'Nunito Sans', sans-serif, system;
+    content: '•';
+    position: absolute;
+    font-size: 16px;
+    font-weight: 600;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .card-images {
+    @apply w-3/5;
+    height: 100%;
+  }
+
+  .card-images img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .card-description {
+    @apply text-gray-1;
+    font-family: 'Nunito Sans', sans-serif, system;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .blue-button {
+    @apply bg-blue-1 text-white text-center;
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif, system;
+    font-size: 17px;
+    font-style: normal;
+    padding-inline: 58px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 3.4px;
+    text-transform: uppercase;
+  }
+}
